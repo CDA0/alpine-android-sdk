@@ -1,4 +1,4 @@
-FROM alpine-openjdk
+FROM cda0/alpine-openjdk:8u212
 
 ENV VERSION_SDK_TOOLS=4333796
 ENV ANDROID_HOME=/usr/local/android-sdk-linux
